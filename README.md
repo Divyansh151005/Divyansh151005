@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
 [![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
-[![IEEE](https://img.shields.io/badge/IEEE-Research_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
+[![IEEE](https://img.shields.io/badge/IEEE-DualCare_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
 [![GitHub](https://img.shields.io/badge/GitHub-Divyansh151005-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
 
 </div>
@@ -20,9 +20,17 @@ I'm a Computer Science student at **IIT Ropar** building across **AI systems, ba
 - 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to [Turborepo](https://github.com/vercel/turborepo), [Pyrefly](https://github.com/facebook/pyrefly), [Guava](https://github.com/google/guava), and more
 - 🎓 **Education:** B.Tech CSE @ IIT Ropar (CGPA 8.09)
 - 💼 **Experience:** SWE Intern @ Arista Networks · AI Backend @ [Ourguide.ai](https://ourguide.ai) · AI Systems @ WristKey · AI Developer @ Tasker Healthcare
-- 📄 **Research:** [IEEE Xplore Publication](https://ieeexplore.ieee.org/document/11575533)
+- 📄 **Research:** [*DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent*](https://ieeexplore.ieee.org/document/11575533) (IEEE)
 
 ---
+
+## Research
+
+**[DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent](https://ieeexplore.ieee.org/document/11575533)** · IEEE Xplore
+
+Cross-chain consortium blockchain framework for medical data sharing through **dual consent** across homogeneous Hyperledger Fabric networks. DualCare separates hospital and patient data into independent blockchains connected by a relay service for consent propagation and key distribution, with off-chain MinIO storage, on-chain integrity hashes, and cryptographic key management (AES-256, RSA-2048, time-limited revocation). End-to-end implementation and experimental validation demonstrate consistent transaction latency and high pipeline efficiency for real-world healthcare data governance.
+
+→ Implementation: [medical-crosschain-](https://github.com/Divyansh151005/medical-crosschain-)
 
 ## Hackathons & Competitions
 
@@ -64,7 +72,7 @@ I'm a Computer Science student at **IIT Ropar** building across **AI systems, ba
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [greeks-driven-options-engine](https://github.com/Divyansh151005/greeks-driven-options-engine) | Systematic options research & backtesting with Greeks-based risk management | Python |
-| [medical-crosschain-](https://github.com/Divyansh151005/medical-crosschain-) | Dual Hyperledger Fabric networks for secure medical data sharing (DualCare) | Hyperledger, JS |
+| [medical-crosschain-](https://github.com/Divyansh151005/medical-crosschain-) | DualCare — IEEE-published dual-consent medical data sharing on Hyperledger Fabric | Hyperledger, JS |
 | [solana-collateral-vault](https://github.com/Divyansh151005/solana-collateral-vault) | Non-custodial collateral vault for decentralized perpetual futures | Rust, Solana, Anchor |
 | [ZK-Coprocessor](https://github.com/Divyansh151005/ZK-Coprocessor) | ZK-verified off-chain compute framework for smart contracts | Rust, Solidity, Foundry |
 | [SmartCRM360](https://github.com/Divyansh151005/SmartCRM360) | Full-stack CRM with AI recommendations, workflow automation & KPIs | React, Node.js |
