@@ -2,10 +2,11 @@
 
 # Hi, I'm Divyansh Barodiya 👋
 
-**CSE @ IIT Ropar** · Software Engineer · AI, Backend & Open Source
+**CSE @ IIT Ropar** · SWE Intern @ Arista Networks · AI, Backend & Open Source
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
 [![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
+[![IEEE](https://img.shields.io/badge/IEEE-Research_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
 [![GitHub](https://img.shields.io/badge/GitHub-Divyansh151005-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
 
 </div>
@@ -16,10 +17,21 @@
 
 I'm a Computer Science student at **IIT Ropar** building across **AI systems, backend engineering, distributed systems, and open source**. I've shipped production AI backends at startups, built healthcare and blockchain systems, and contribute to major OSS projects.
 
-- 🔭 **Currently:** Contributing to [Turborepo](https://github.com/vercel/turborepo), [Pyrefly](https://github.com/facebook/pyrefly), [Guava](https://github.com/google/guava), and more
+- 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to [Turborepo](https://github.com/vercel/turborepo), [Pyrefly](https://github.com/facebook/pyrefly), [Guava](https://github.com/google/guava), and more
 - 🎓 **Education:** B.Tech CSE @ IIT Ropar (CGPA 8.09)
-- 💼 **Experience:** AI Backend Intern @ [Ourguide.ai](https://ourguide.ai) · AI Systems @ WristKey · AI Developer @ Tasker Healthcare
-- 🏆 **Hackathons:** 1st @ MedinosXAdvitya · 2nd @ Sustainovate & Edify
+- 💼 **Experience:** SWE Intern @ Arista Networks · AI Backend @ [Ourguide.ai](https://ourguide.ai) · AI Systems @ WristKey · AI Developer @ Tasker Healthcare
+- 📄 **Research:** [IEEE Xplore Publication](https://ieeexplore.ieee.org/document/11575533)
+
+---
+
+## Hackathons & Competitions
+
+| Event | Place | Project |
+|-------|-------|---------|
+| **MedinosXAdvitya** | 🥇 1st | Multimodal medical chatbot with advanced NLP and image analysis models → [Medinos_Chatbot](https://github.com/Divyansh151005/Medinos_Chatbot) |
+| **Ideathon** | 🥇 1st | NFC-based smart entry system with backend ID verification and real-time logging |
+| **Sustainovate** | 🥈 2nd | Land image analysis system with 3D segmentation and geospatial mapping → [GeoExplore](https://github.com/Divyansh151005/GeoExplore) |
+| **Edify** | 🥈 2nd | Drone imagery pipeline with automated preprocessing, reducing model training time |
 
 ---
 
@@ -56,7 +68,7 @@ I'm a Computer Science student at **IIT Ropar** building across **AI systems, ba
 | [solana-collateral-vault](https://github.com/Divyansh151005/solana-collateral-vault) | Non-custodial collateral vault for decentralized perpetual futures | Rust, Solana, Anchor |
 | [ZK-Coprocessor](https://github.com/Divyansh151005/ZK-Coprocessor) | ZK-verified off-chain compute framework for smart contracts | Rust, Solidity, Foundry |
 | [SmartCRM360](https://github.com/Divyansh151005/SmartCRM360) | Full-stack CRM with AI recommendations, workflow automation & KPIs | React, Node.js |
-| [GeoExplore](https://github.com/Divyansh151005/GeoExplore) | AI-powered mineral potential mapping (2nd @ Sustainovate Hackathon) | Python, ML, GIS |
+| [GeoExplore](https://github.com/Divyansh151005/GeoExplore) | AI-powered mineral potential mapping — 2nd @ Sustainovate Hackathon | Python, ML, GIS |
 
 ---
 
