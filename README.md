@@ -9,6 +9,15 @@
 [![IEEE](https://img.shields.io/badge/IEEE-DualCare_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
 [![GitHub](https://img.shields.io/badge/GitHub-Divyansh151005-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
 
+<br/>
+
+[![Merged PRs](https://img.shields.io/badge/Merged%20OSS%20PRs-4-22c55e?style=for-the-badge&logo=github)](https://github.com/vercel/turborepo/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
+[![Open PRs](https://img.shields.io/badge/Open%20OSS%20PRs-21-3b82f6?style=for-the-badge&logo=github)](https://github.com/pulls?q=is%3Aopen+is%3Apr+author%3ADivyansh151005)
+[![OSS Projects](https://img.shields.io/badge/OSS%20Projects-9-8b5cf6?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/Divyansh151005)
+[![IEEE Published](https://img.shields.io/badge/IEEE-Published-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
+[![Hackathon Podiums](https://img.shields.io/badge/Hackathon%20Podiums-4-eab308?style=for-the-badge)](https://github.com/Divyansh151005)
+[![Contributions](https://img.shields.io/badge/Contributions-200+-f97316?style=for-the-badge&logo=github)](https://github.com/Divyansh151005)
+
 </div>
 
 ---
@@ -17,28 +26,28 @@
 
 I'm a Computer Science student at **IIT Ropar** building across **AI systems, backend engineering, distributed systems, and open source**. I've shipped production AI backends at startups, built healthcare and blockchain systems, and contribute to major OSS projects.
 
-- 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to [Turborepo](https://github.com/vercel/turborepo), [Pyrefly](https://github.com/facebook/pyrefly), [Guava](https://github.com/google/guava), and more
+- 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to Turborepo, Pyrefly, Guava, and more
 - 🎓 **Education:** B.Tech CSE @ IIT Ropar (CGPA 8.09)
-- 💼 **Experience:** SWE Intern @ Arista Networks · AI Backend @ [Ourguide.ai](https://ourguide.ai) · AI Systems @ WristKey · AI Developer @ Tasker Healthcare
-- 📄 **Research:** [*DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent*](https://ieeexplore.ieee.org/document/11575533) (IEEE)
+- 💼 **Experience:** SWE Intern @ Arista Networks · AI Backend @ Ourguide.ai · Blockchain Developer @ WristKey Global · AI Developer @ Tasker Healthcare
+- 📄 **Research:** *DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent* ([IEEE](https://ieeexplore.ieee.org/document/11575533))
 
 ---
 
 ## Research
 
-**[DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent](https://ieeexplore.ieee.org/document/11575533)** · IEEE Xplore
+**DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent** · [IEEE Xplore](https://ieeexplore.ieee.org/document/11575533)
 
 Cross-chain consortium blockchain framework for medical data sharing through **dual consent** across homogeneous Hyperledger Fabric networks. DualCare separates hospital and patient data into independent blockchains connected by a relay service for consent propagation and key distribution, with off-chain MinIO storage, on-chain integrity hashes, and cryptographic key management (AES-256, RSA-2048, time-limited revocation). End-to-end implementation and experimental validation demonstrate consistent transaction latency and high pipeline efficiency for real-world healthcare data governance.
 
-→ Implementation: [medical-crosschain-](https://github.com/Divyansh151005/medical-crosschain-)
+---
 
 ## Hackathons & Competitions
 
 | Event | Place | Project |
 |-------|-------|---------|
-| **MedinosXAdvitya** | 🥇 1st | Multimodal medical chatbot with advanced NLP and image analysis models → [Medinos_Chatbot](https://github.com/Divyansh151005/Medinos_Chatbot) |
+| **MedinosXAdvitya** | 🥇 1st | Multimodal medical chatbot with advanced NLP and image analysis models |
 | **Ideathon** | 🥇 1st | NFC-based smart entry system with backend ID verification and real-time logging |
-| **Sustainovate** | 🥈 2nd | Land image analysis system with 3D segmentation and geospatial mapping → [GeoExplore](https://github.com/Divyansh151005/GeoExplore) |
+| **Sustainovate** | 🥈 2nd | Land image analysis system with 3D segmentation and geospatial mapping |
 | **Edify** | 🥈 2nd | Drone imagery pipeline with automated preprocessing, reducing model training time |
 
 ---
@@ -67,19 +76,6 @@ Cross-chain consortium blockchain framework for medical data sharing through **d
 
 ---
 
-## Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [greeks-driven-options-engine](https://github.com/Divyansh151005/greeks-driven-options-engine) | Systematic options research & backtesting with Greeks-based risk management | Python |
-| [medical-crosschain-](https://github.com/Divyansh151005/medical-crosschain-) | DualCare — IEEE-published dual-consent medical data sharing on Hyperledger Fabric | Hyperledger, JS |
-| [solana-collateral-vault](https://github.com/Divyansh151005/solana-collateral-vault) | Non-custodial collateral vault for decentralized perpetual futures | Rust, Solana, Anchor |
-| [ZK-Coprocessor](https://github.com/Divyansh151005/ZK-Coprocessor) | ZK-verified off-chain compute framework for smart contracts | Rust, Solidity, Foundry |
-| [SmartCRM360](https://github.com/Divyansh151005/SmartCRM360) | Full-stack CRM with AI recommendations, workflow automation & KPIs | React, Node.js |
-| [GeoExplore](https://github.com/Divyansh151005/GeoExplore) | AI-powered mineral potential mapping — 2nd @ Sustainovate Hackathon | Python, ML, GIS |
-
----
-
 ## Tech Stack
 
 **Languages:** Python · TypeScript · JavaScript · Rust · Java · C/C++
@@ -87,19 +83,6 @@ Cross-chain consortium blockchain framework for medical data sharing through **d
 **AI & Backend:** LLM Integration · RAG · Model Serving · Async APIs · Caching · Docker · Kubernetes
 
 **Systems:** Distributed Systems · Event-Driven Architecture · Kafka · Redis · Hyperledger Fabric · Solana
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyansh151005&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Divyansh151005&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
 
 ---
 
