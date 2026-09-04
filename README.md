@@ -27,8 +27,7 @@
 I'm a Computer Science student at **IIT Ropar** building across **AI systems, backend engineering, distributed systems, and open source**. I've shipped production AI backends at startups, built healthcare and blockchain systems, and contribute to major OSS projects.
 
 - 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to Turborepo, Pyrefly, Guava, and more
-- 🎓 **Education:** B.Tech CSE @ IIT Ropar (CGPA 8.09)
-- 💼 **Experience:** SWE Intern @ Arista Networks · AI Backend @ Ourguide.ai · Blockchain Developer @ WristKey Global · AI Developer @ Tasker Healthcare
+- 🎓 **Education:** B.Tech CSE @ IIT Ropar
 - 📄 **Research:** *DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent* ([IEEE](https://ieeexplore.ieee.org/document/11575533))
 
 ---
