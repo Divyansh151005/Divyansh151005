@@ -56,7 +56,7 @@ const divyansh = {
 <br clear="right"/>
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,0f172a,35,1e293b,65,334155,100,475569&height=50&section=header&text=Flagship%20%C2%B7%20Temporal%20Hypergraph%20Engine&fontSize=17&fontColor=f8fafc&animation=fadeIn&fontAlignY=52" width="100%" alt="Flagship section"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0f172a,35:1e293b,65:334155,100:475569&height=50&section=header&text=Flagship%20%C2%B7%20Temporal%20Hypergraph%20Engine&fontSize=17&fontColor=f8fafc&animation=fadeIn&fontAlignY=52" width="100%" alt="Flagship section"/>
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ const divyansh = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Merged%20Open%20Source%20Contributions&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="OSS section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,45:1e293b,100:475569&height=46&section=header&text=Merged%20Open%20Source%20Contributions&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="OSS section"/>
 
 <!--START_SECTION:merged-->
 <p align="center">
@@ -129,13 +129,13 @@ const divyansh = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Tech%20Stack&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stack section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,45:1e293b,100:475569&height=46&section=header&text=Tech%20Stack&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stack section"/>
 
-<img src="https://skillicons.dev/icons?i=rust,python,ts,java,cpp,solidity,ethereum,docker,k8s,postgres,redis,linux,git,githubactions,npm,react&perline=8" alt="Tech stack icons"/>
+<img src="https://skillicons.dev/icons?i=rust,python,ts,java,cpp,solidity,docker,k8s,postgres,redis,linux,git,githubactions,npm,react&perline=8" alt="Tech stack icons"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=GitHub%20Analytics&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stats section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,45:1e293b,100:475569&height=46&section=header&text=GitHub%20Analytics&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stats section"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=0ea5e9&include_all_commits=true&count_private=true" />
@@ -165,7 +165,7 @@ const divyansh = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Contribution%20Activity&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Snake section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f172a,45:1e293b,100:475569&height=46&section=header&text=Contribution%20Activity&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Snake section"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake-dark.svg" />
