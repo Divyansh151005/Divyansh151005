@@ -1,22 +1,60 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=280&section=header&text=Divyansh%20Barodiya&fontSize=62&fontColor=f8fafc&animation=fadeIn&fontAlignY=32&desc=CSE%20%40%20IIT%20Ropar%20%C2%B7%20SWE%20Intern%20%40%20Arista%20Networks&descSize=17&descAlignY=58&descAlign=50&descColor=cbd5e1" width="100%" alt="Header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=CBD5E1&center=true&vCenter=true&width=940&lines=Building+Temporal+Hypergraph+Engine;Time%E2%80%91aware+LLM+memory+%26+vLLM+KV%E2%80%91cache;Distributed+systems+%C2%B7+ZK+%C2%B7+Quant+%C2%B7+Open+Source" alt="Typing intro"/>
+<h2><img src="./assets/gifs/blob-sunglasses.gif" width="30"/> नमस्ते (Namaste) 🙏🏻, I'm Divyansh Barodiya! <img src="./assets/gifs/wave.gif" width="40"/></h2>
 
+<img align="right" src="./assets/gifs/pixel-coder.gif" width="300" alt="Pixel art developer coding"/>
+
+<p><em>
+  Building <a href="https://github.com/Divyansh151005/Temporal-Hypergraph-Engine"><b>Temporal Hypergraph Engine</b></a> — time-aware memory for LLMs
+  <img src="./assets/gifs/cat-typing.gif" width="34"/>
+  <br/>
+  Software Engineering Intern at <b>Arista Networks</b>
+  <img src="./assets/gifs/pixel-blob.gif" width="30"/>
+  <br/>
+  B.Tech Computer Science at <a href="https://www.iitrpr.ac.in/"><b>IIT Ropar</b></a>
+  <img src="./assets/gifs/pixel-turtle.gif" width="34"/>
+  <br/>
+  Published at IEEE — <a href="https://ieeexplore.ieee.org/document/11575533"><b>DualCare</b></a>
+  <img src="./assets/gifs/pixel-ghost.gif" width="28"/>
+</em></p>
+
+[![Live demo](https://img.shields.io/badge/Live_demo-Temporal_Hypergraph-334155?style=flat-square&logo=render&logoColor=white)](https://temporal-hypergraph-web.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/-divyansh--barodiya-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
+[![Email](https://img.shields.io/badge/-2023csb1119@iitrpr.ac.in-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
+![GitHub followers](https://img.shields.io/github/followers/Divyansh151005?label=Follow&style=social)
+![Profile views](https://komarev.com/ghpvc/?username=Divyansh151005&label=Profile%20views&color=475569&style=flat-square)
+
+### <img src="./assets/gifs/space-cat.gif" width="50"/> A little more about me...
+
+```javascript
+const divyansh = {
+  pronouns: ["he", "him"],
+  location: "Pune, Maharashtra, India",
+  currentFocus: "Temporal Hypergraph Engine — LLM memory that never serves a stale fact",
+  code: ["Rust", "Python", "TypeScript", "Java", "C++", "Solidity"],
+  askMeAbout: [
+    "LLM memory & RAG",
+    "distributed databases",
+    "zero-knowledge proofs",
+    "quantitative finance",
+    "quantum error correction",
+  ],
+  building: {
+    temporalHypergraphEngine: "lock-free temporal hypergraph + vLLM KV-cache store",
+    aetherDecoders: "FTQC decoders — Union-Find + Relay-BP",
+    zkCoprocessor: "ZK-verified off-chain compute for smart contracts",
+    alphaEngine: "event-driven crypto multi-alpha engine",
+  },
+  research: "DualCare — dual-consent cross-chain medical data sharing (IEEE)",
+  hackathons: ["MedinosXAdvitya 🥇", "Ideathon 🥇", "Sustainovate 🥈", "Edify 🥈"],
+  openSource: ["apple/foundationdb", "vercel/turborepo", "anthropics/buffa", "lballabio/QuantLib"],
+};
+```
+
+<img src="./assets/gifs/connect.gif" width="60"/> <em><b>I love connecting with different people</b>, so if you want to say <b>hi</b>, I'd be happy to meet you!</em>
+
+<br clear="right"/>
 <br/>
-
-[![Profile views](https://komarev.com/ghpvc/?username=Divyansh151005&label=Profile+views&color=0ea5e9&style=for-the-badge)](https://github.com/Divyansh151005)
-[![Contributions](https://img.shields.io/badge/Contributions-600+-f97316?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
-[![Merged upstream PRs](https://img.shields.io/badge/Merged_upstream-13+-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
-[![Location](https://img.shields.io/badge/Pune-Maharashtra%2C%20India-8b5cf6?style=for-the-badge)](https://github.com/Divyansh151005)
-
-<br/>
-
-[![Live demo](https://img.shields.io/badge/🌐_Live_demo-temporal--hypergraph--web.onrender.com-0ea5e9?style=for-the-badge)](https://temporal-hypergraph-web.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
-[![IEEE DualCare](https://img.shields.io/badge/IEEE-DualCare_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
-[![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
-
-<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,0f172a,35,1e293b,65,334155,100,475569&height=50&section=header&text=Flagship%20%C2%B7%20Temporal%20Hypergraph%20Engine&fontSize=17&fontColor=f8fafc&animation=fadeIn&fontAlignY=52" width="100%" alt="Flagship section"/>
 
@@ -53,45 +91,45 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=About%20%26%20Highlights&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="About section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Merged%20Open%20Source%20Contributions&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="OSS section"/>
 
-| | |
-|:---|:---|
-| 🏢 **Now** | Software Engineering Intern @ **Arista Networks** |
-| 🎓 **Education** | B.Tech CSE @ **IIT Ropar** · Pune, Maharashtra |
-| 🔬 **Research** | [**DualCare**](https://ieeexplore.ieee.org/document/11575533) — dual-consent cross-chain medical data sharing on Hyperledger Fabric |
-| 🏆 **Hackathons** | MedinosXAdvitya 🥇 · Ideathon 🥇 · Sustainovate 🥈 · Edify 🥈 |
-| 📌 **Repos** | Ship the rest via **pinned repositories** on my profile (THE, Aether, ZK-Coprocessor, alpha-engine) |
+<!--START_SECTION:merged-->
+<p align="center">
+  <img src="https://img.shields.io/badge/Merged_PRs-16-334155?style=for-the-badge&logo=git-merge&logoColor=white" alt="16 merged PRs"/>
+  <img src="https://img.shields.io/badge/Repositories-6-475569?style=for-the-badge&logo=github&logoColor=white" alt="6 repositories"/>
+</p>
 
-<br/>
+<table>
+<tr>
+<td width="64" align="center"><img src="https://github.com/apple.png?size=80" width="40" alt="apple"/></td>
+<td><b><a href="https://github.com/apple/foundationdb">apple/foundationdb</a></b> <sub>· 2 merged</sub><br/><a href="https://github.com/apple/foundationdb/pull/14313">#14313</a> Bound shard location batches in getStorageMetricsLargeKeyRange <sub>· 2026-11-03</sub><br/><a href="https://github.com/apple/foundationdb/pull/14308">#14308</a> [release-7.4] Fix SIGSEGV when opening a tenant on a database with an unusable cluster file <sub>· 2026-10-29</sub></td>
+</tr>
+<tr>
+<td width="64" align="center"><img src="https://github.com/lballabio.png?size=80" width="40" alt="lballabio"/></td>
+<td><b><a href="https://github.com/lballabio/QuantLib">lballabio/QuantLib</a></b> <sub>· 2 merged</sub><br/><a href="https://github.com/lballabio/QuantLib/pull/2915">#2915</a> Price deep in-the-money calls on the Leisen-Reimer tree <sub>· 2026-10-30</sub><br/><a href="https://github.com/lballabio/QuantLib/pull/2914">#2914</a> Floor finite-difference American prices at the exercise value <sub>· 2026-10-23</sub></td>
+</tr>
+<tr>
+<td width="64" align="center"><img src="https://github.com/anthropics.png?size=80" width="40" alt="anthropics"/></td>
+<td><b><a href="https://github.com/anthropics/buffa">anthropics/buffa</a></b> <sub>· 2 merged</sub><br/><a href="https://github.com/anthropics/buffa/pull/395">#395</a> buffa-build: path-scoped preserve_unknown_fields_in <sub>· 2026-09-20</sub><br/><a href="https://github.com/anthropics/buffa/pull/394">#394</a> types: add Api, Type, and SourceContext well-known types <sub>· 2026-09-01</sub></td>
+</tr>
+<tr>
+<td width="64" align="center"><img src="https://github.com/K-Dense-AI.png?size=80" width="40" alt="K-Dense-AI"/></td>
+<td><b><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></b> <sub>· 2 merged</sub><br/><a href="https://github.com/K-Dense-AI/scientific-agent-skills/pull/245">#245</a> fix(database-lookup): retire dead PatentsView search API for ODP <sub>· 2026-09-10</sub><br/><a href="https://github.com/K-Dense-AI/scientific-agent-skills/pull/244">#244</a> fix(rdkit): finish FractionCSP3 / CalcFractionCSP3 doc corrections <sub>· 2026-09-10</sub></td>
+</tr>
+<tr>
+<td width="64" align="center"><img src="https://github.com/vercel.png?size=80" width="40" alt="vercel"/></td>
+<td><b><a href="https://github.com/vercel/turborepo">vercel/turborepo</a></b> <sub>· 5 merged</sub><br/><a href="https://github.com/vercel/turborepo/pull/13905">#13905</a> fix: Correct devtools --port default in CLI help <sub>· 2026-09-01</sub><br/><a href="https://github.com/vercel/turborepo/pull/13883">#13883</a> docs: Align CONTRIBUTING Node and pnpm versions <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13902">#13902</a> docs: Document missing reference flags and fix query typo <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13891">#13891</a> fix: Update --filter help links to canonical docs URL <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13892">#13892</a> docs: Clarify turbo ls stability in Agent Skill <sub>· 2026-08-30</sub></td>
+</tr>
+<tr>
+<td width="64" align="center"><img src="https://github.com/rkehres.png?size=80" width="40" alt="rkehres"/></td>
+<td><b><a href="https://github.com/rkehres/arbiter">rkehres/arbiter</a></b> <sub>· 3 merged</sub><br/><a href="https://github.com/rkehres/arbiter/pull/13">#13</a> Schema Final Alignment: Remove hasMany, Add Query Indexes, Align Environments <sub>· 2026-02-14</sub><br/><a href="https://github.com/rkehres/arbiter/pull/12">#12</a> feat(schema): align domain + migrations with finalized SqlDBM schema <sub>· 2026-02-11</sub><br/><a href="https://github.com/rkehres/arbiter/pull/9">#9</a> Normalize options model and refactor services <sub>· 2026-02-02</sub></td>
+</tr>
+</table>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Open%20Source%20Contributions&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="OSS section"/>
+<p align="right"><sub>Auto-updated daily from GitHub search</sub></p>
+<!--END_SECTION:merged-->
 
-[![Apple FoundationDB](https://img.shields.io/badge/Apple-FoundationDB-merged-22c55e?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/apple/foundationdb)
-[![Meta Pyrefly](https://img.shields.io/badge/Meta-Pyrefly-in_flight-3b82f6?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/meta/pyrefly)
-[![Google Guava](https://img.shields.io/badge/Google-Guava-in_flight-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/guava)
-[![Vercel Turborepo](https://img.shields.io/badge/Vercel-Turborepo-merged-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/vercel/turborepo)
-[![Anthropic Buffa](https://img.shields.io/badge/Anthropic-Buffa-merged-191919?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/anthropics/buffa)
-[![QuantLib](https://img.shields.io/badge/QuantLib-merged-2563eb?style=for-the-badge)](https://github.com/lballabio/QuantLib)
-[![K-Dense](https://img.shields.io/badge/K--Dense-scientific--skills-merged-8b5cf6?style=for-the-badge)](https://github.com/K-Dense-AI/scientific-agent-skills)
-
-<br/>
-
-| Project | What I work on |
-|:--------|:---------------|
-| **[apple/foundationdb](https://github.com/apple/foundationdb)** | ✅ **Merged** — tenant SIGSEGV with unusable cluster files; bounded shard batches in `getStorageMetricsLargeKeyRange` |
-| **[meta/pyrefly](https://github.com/meta/pyrefly)** | 🔄 **In flight** — type checker diagnostics, `isinstance` narrowing, dict/generic inference |
-| **[google/guava](https://github.com/google/guava)** | 🔄 **In flight** — `removeIf` on filtered map/multimap views, encoding streams, collection test harness |
-| **[vercel/turborepo](https://github.com/vercel/turborepo)** | ✅ **Merged** — CLI defaults, docs, Agent Skill stability |
-| **[anthropics/buffa](https://github.com/anthropics/buffa)** | ✅ **Merged** — protobuf WKT types, build `preserve_unknown_fields` |
-| **[lballabio/QuantLib](https://github.com/lballabio/QuantLib)** | ✅ **Merged** — American FD floor, deep ITM Leisen–Reimer calls |
-| **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** | ✅ **Merged** — RDKit docs, patent API migration |
-
-<div align="center">
-
-[![View all merged PRs](https://img.shields.io/badge/Explore_all_merged_PRs-%E2%86%92-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
-
-</div>
+<sub>Also contributing to <a href="https://github.com/meta/pyrefly"><b>meta/pyrefly</b></a> (type checker narrowing &amp; inference) and <a href="https://github.com/google/guava"><b>google/guava</b></a> (collections <code>removeIf</code> on filtered views) — in review.</sub>
 
 <br/>
 
