@@ -1,6 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0e7490&height=280&section=header&text=Divyansh%20Barodiya&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=CSE%20%40%20IIT%20Ropar%20%C2%B7%20SWE%20Intern%20%40%20Arista%20Networks&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=280&section=header&text=Divyansh%20Barodiya&fontSize=62&fontColor=f8fafc&animation=fadeIn&fontAlignY=32&desc=CSE%20%40%20IIT%20Ropar%20%C2%B7%20SWE%20Intern%20%40%20Arista%20Networks&descSize=17&descAlignY=58&descAlign=50&descColor=cbd5e1" width="100%" alt="Header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=940&lines=Building+Temporal+Hypergraph+Engine;Time%E2%80%91aware+LLM+memory+%26+vLLM+KV%E2%80%91cache;Distributed+systems+%C2%B7+ZK+%C2%B7+Quant+%C2%B7+Open+Source" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=CBD5E1&center=true&vCenter=true&width=940&lines=Building+Temporal+Hypergraph+Engine;Time%E2%80%91aware+LLM+memory+%26+vLLM+KV%E2%80%91cache;Distributed+systems+%C2%B7+ZK+%C2%B7+Quant+%C2%B7+Open+Source" alt="Typing intro"/>
 
 <br/>
 
@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0f172a,50,f97316,100,0ea5e9&height=52&section=header&text=%E2%9A%A1%20FLAGSHIP%20%E2%80%94%20TEMPORAL%20HYPERGRAPH%20ENGINE&fontSize=18&fontColor=ffffff&animation=twinkling" width="100%" alt="Flagship section"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,0f172a,35,1e293b,65,334155,100,475569&height=50&section=header&text=Flagship%20%C2%B7%20Temporal%20Hypergraph%20Engine&fontSize=17&fontColor=f8fafc&animation=fadeIn&fontAlignY=52" width="100%" alt="Flagship section"/>
 
 <table>
 <tr>
@@ -53,7 +53,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,1e3a5f,50,6366f1,100,22d3ee&height=52&section=header&text=%F0%9F%9A%80%20ABOUT%20%26%20HIGHLIGHTS&fontSize=18&fontColor=ffffff" width="100%" alt="About section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=About%20%26%20Highlights&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="About section"/>
 
 | | |
 |:---|:---|
@@ -65,7 +65,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,14532d,50,22c55e,100,0f172a&height=52&section=header&text=%F0%9F%8C%8D%20OPEN%20SOURCE%20CONTRIBUTIONS&fontSize=18&fontColor=ffffff" width="100%" alt="OSS section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Open%20Source%20Contributions&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="OSS section"/>
 
 [![Apple FoundationDB](https://img.shields.io/badge/Apple-FoundationDB-merged-22c55e?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/apple/foundationdb)
 [![Meta Pyrefly](https://img.shields.io/badge/Meta-Pyrefly-in_flight-3b82f6?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/meta/pyrefly)
@@ -95,13 +95,13 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,312e81,50,a855f7,100,ec4899&height=52&section=header&text=%E2%9A%99%EF%B8%8F%20TECH%20STACK&fontSize=18&fontColor=ffffff" width="100%" alt="Stack section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Tech%20Stack&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stack section"/>
 
 <img src="https://skillicons.dev/icons?i=rust,python,ts,java,cpp,solidity,ethereum,docker,k8s,postgres,redis,linux,git,githubactions,npm,react&perline=8" alt="Tech stack icons"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0f172a,50,334155,100,0ea5e9&height=52&section=header&text=%F0%9F%93%8A%20GITHUB%20ANALYTICS&fontSize=18&fontColor=ffffff" width="100%" alt="Stats section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=GitHub%20Analytics&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Stats section"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=0ea5e9&include_all_commits=true&count_private=true" />
@@ -127,11 +127,11 @@
 
 <br/>
 
-[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Divyansh151005&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=f97316&line=0ea5e9&point=ffffff&height=250)](https://github.com/Divyansh151005)
+[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Divyansh151005&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=94a3b8&line=64748b&point=e2e8f0&height=250)](https://github.com/Divyansh151005)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,064e3b,50,10b981,100,0f172a&height=48&section=header&text=%F0%9F%90%8D%20CONTRIBUTION%20SNAKE&fontSize=16&fontColor=ffffff" width="100%" alt="Snake section"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0,0f172a,45,1e293b,100,475569&height=46&section=header&text=Contribution%20Activity&fontSize=16&fontColor=f1f5f9&animation=fadeIn&fontAlignY=52" width="100%" alt="Snake section"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake-dark.svg" />
@@ -141,7 +141,7 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,50:1e1b4b,100:0f172a&height=140&section=footer&text=Let%27s%20build%20something%20ambitious.&fontSize=26&fontColor=ffffff&animation=twinkling&fontAlignY=72" width="100%" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=130&section=footer&text=Let%27s%20build%20something%20ambitious.&fontSize=24&fontColor=f8fafc&animation=fadeIn&fontAlignY=72" width="100%" alt="Footer"/>
 
 <div align="center">
 
