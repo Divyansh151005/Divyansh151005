@@ -1,61 +1,150 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e1b4b,100:0e7490&height=280&section=header&text=Divyansh%20Barodiya&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=CSE%20%40%20IIT%20Ropar%20%C2%B7%20SWE%20Intern%20%40%20Arista%20Networks&descSize=18&descAlignY=58&descAlign=50" width="100%" alt="Header"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=F97316&center=true&vCenter=true&width=940&lines=Building+Temporal+Hypergraph+Engine;Time%E2%80%91aware+LLM+memory+%26+vLLM+KV%E2%80%91cache;Distributed+systems+%C2%B7+ZK+%C2%B7+Quant+%C2%B7+Open+Source" alt="Typing intro"/>
+
+<br/>
+
+[![Profile views](https://komarev.com/ghpvc/?username=Divyansh151005&label=Profile+views&color=0ea5e9&style=for-the-badge)](https://github.com/Divyansh151005)
+[![Contributions](https://img.shields.io/badge/Contributions-600+-f97316?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
+[![Merged upstream PRs](https://img.shields.io/badge/Merged_upstream-13+-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
+[![Location](https://img.shields.io/badge/Pune-Maharashtra%2C%20India-8b5cf6?style=for-the-badge)](https://github.com/Divyansh151005)
+
+<br/>
+
+[![Live demo](https://img.shields.io/badge/🌐_Live_demo-temporal--hypergraph--web.onrender.com-0ea5e9?style=for-the-badge)](https://temporal-hypergraph-web.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
+[![IEEE DualCare](https://img.shields.io/badge/IEEE-DualCare_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
+[![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0f172a,50,f97316,100,0ea5e9&height=52&section=header&text=%E2%9A%A1%20FLAGSHIP%20%E2%80%94%20TEMPORAL%20HYPERGRAPH%20ENGINE&fontSize=18&fontColor=ffffff&animation=twinkling" width="100%" alt="Flagship section"/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<h2>0%</h2>
+<b>stale facts</b><br/>
+<sub>multi-hop retrieval vs ~45–52% vector/graph RAG</sub>
+</td>
+<td align="center" width="33%">
+<h2>7.8×</h2>
+<b>faster p50</b><br/>
+<sub>vs temporal property graph (identical accuracy)</sub>
+</td>
+<td align="center" width="33%">
+<h2>375 ns</h2>
+<b>p99 snapshot</b><br/>
+<sub>under heavy concurrent writers</sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
+> **Time-aware memory for LLMs that never serves a stale fact.**  
+> Lock-free, SIMD-accelerated **temporal hypergraph** in Rust — Python/TS SDKs, zero-copy **vLLM KV-cache** block store, [PyPI](https://pypi.org/project/hypergraph-client/) & [npm](https://www.npmjs.com/package/@temporal-hypergraph/sdk).
+
+<br/>
+
+<a href="https://github.com/Divyansh151005/Temporal-Hypergraph-Engine">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Divyansh151005&repo=Temporal-Hypergraph-Engine&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=0ea5e9&text_color=c9d1d9" alt="Temporal Hypergraph Engine repo card"/>
+</a>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,1e3a5f,50,6366f1,100,22d3ee&height=52&section=header&text=%F0%9F%9A%80%20ABOUT%20%26%20HIGHLIGHTS&fontSize=18&fontColor=ffffff" width="100%" alt="About section"/>
+
+| | |
+|:---|:---|
+| 🏢 **Now** | Software Engineering Intern @ **Arista Networks** |
+| 🎓 **Education** | B.Tech CSE @ **IIT Ropar** · Pune, Maharashtra |
+| 🔬 **Research** | [**DualCare**](https://ieeexplore.ieee.org/document/11575533) — dual-consent cross-chain medical data sharing on Hyperledger Fabric |
+| 🏆 **Hackathons** | MedinosXAdvitya 🥇 · Ideathon 🥇 · Sustainovate 🥈 · Edify 🥈 |
+| 📌 **Repos** | Ship the rest via **pinned repositories** on my profile (THE, Aether, ZK-Coprocessor, alpha-engine) |
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,14532d,50,22c55e,100,0f172a&height=52&section=header&text=%F0%9F%8C%8D%20OPEN%20SOURCE%20CONTRIBUTIONS&fontSize=18&fontColor=ffffff" width="100%" alt="OSS section"/>
+
+[![Apple FoundationDB](https://img.shields.io/badge/Apple-FoundationDB-merged-22c55e?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/apple/foundationdb)
+[![Meta Pyrefly](https://img.shields.io/badge/Meta-Pyrefly-in_flight-3b82f6?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/meta/pyrefly)
+[![Google Guava](https://img.shields.io/badge/Google-Guava-in_flight-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/guava)
+[![Vercel Turborepo](https://img.shields.io/badge/Vercel-Turborepo-merged-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/vercel/turborepo)
+[![Anthropic Buffa](https://img.shields.io/badge/Anthropic-Buffa-merged-191919?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/anthropics/buffa)
+[![QuantLib](https://img.shields.io/badge/QuantLib-merged-2563eb?style=for-the-badge)](https://github.com/lballabio/QuantLib)
+[![K-Dense](https://img.shields.io/badge/K--Dense-scientific--skills-merged-8b5cf6?style=for-the-badge)](https://github.com/K-Dense-AI/scientific-agent-skills)
+
+<br/>
+
+| Project | What I work on |
+|:--------|:---------------|
+| **[apple/foundationdb](https://github.com/apple/foundationdb)** | ✅ **Merged** — tenant SIGSEGV with unusable cluster files; bounded shard batches in `getStorageMetricsLargeKeyRange` |
+| **[meta/pyrefly](https://github.com/meta/pyrefly)** | 🔄 **In flight** — type checker diagnostics, `isinstance` narrowing, dict/generic inference |
+| **[google/guava](https://github.com/google/guava)** | 🔄 **In flight** — `removeIf` on filtered map/multimap views, encoding streams, collection test harness |
+| **[vercel/turborepo](https://github.com/vercel/turborepo)** | ✅ **Merged** — CLI defaults, docs, Agent Skill stability |
+| **[anthropics/buffa](https://github.com/anthropics/buffa)** | ✅ **Merged** — protobuf WKT types, build `preserve_unknown_fields` |
+| **[lballabio/QuantLib](https://github.com/lballabio/QuantLib)** | ✅ **Merged** — American FD floor, deep ITM Leisen–Reimer calls |
+| **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** | ✅ **Merged** — RDKit docs, patent API migration |
+
 <div align="center">
 
-# Divyansh Barodiya
+[![View all merged PRs](https://img.shields.io/badge/Explore_all_merged_PRs-%E2%86%92-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
 
 </div>
 
-**Temporal hypergraph engine · CSE @ IIT Ropar · SWE Intern @ Arista Networks · Pune, Maharashtra**
+<br/>
 
-> Time-aware memory for LLMs — facts with validity windows, not stale retrieval.
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,312e81,50,a855f7,100,ec4899&height=52&section=header&text=%E2%9A%99%EF%B8%8F%20TECH%20STACK&fontSize=18&fontColor=ffffff" width="100%" alt="Stack section"/>
 
-**Links:** [Live demo](https://temporal-hypergraph-web.onrender.com/) · [Temporal Hypergraph Engine](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine) · [LinkedIn](https://www.linkedin.com/in/divyansh-barodiya/) · [IEEE DualCare](https://ieeexplore.ieee.org/document/11575533) · [Email](mailto:2023csb1119@iitrpr.ac.in)
+<img src="https://skillicons.dev/icons?i=rust,python,ts,java,cpp,solidity,ethereum,docker,k8s,postgres,redis,linux,git,githubactions,npm,react&perline=8" alt="Tech stack icons"/>
 
----
+<br/><br/>
 
-### ~/building
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,0f172a,50,334155,100,0ea5e9&height=52&section=header&text=%F0%9F%93%8A%20GITHUB%20ANALYTICS&fontSize=18&fontColor=ffffff" width="100%" alt="Stats section"/>
 
-**[Temporal Hypergraph Engine](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine)** — lock-free Rust temporal hypergraph for LLM memory and a zero-copy **vLLM KV-cache** block store. SDKs on [PyPI](https://pypi.org/project/hypergraph-client/) and [npm](https://www.npmjs.com/package/@temporal-hypergraph/sdk). Site: **[temporal-hypergraph-web.onrender.com](https://temporal-hypergraph-web.onrender.com/)**.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=0ea5e9&include_all_commits=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" />
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&icon_color=0ea5e9&include_all_commits=true&count_private=true" height="165"/>
+</picture>
+&nbsp;
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Divyansh151005&theme=tokyonight&hide_border=true&background=0D1117&ring=f97316&fire=0ea5e9&currStreakLabel=f97316" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Divyansh151005&theme=default&hide_border=true" />
+  <img alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Divyansh151005&theme=tokyonight&hide_border=true&background=0D1117&ring=f97316&fire=0ea5e9&currStreakLabel=f97316" height="165"/>
+</picture>
+&nbsp;
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyansh151005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&langs_count=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyansh151005&layout=compact&theme=default&hide_border=true&langs_count=8" />
+  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divyansh151005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=f97316&langs_count=8" height="165"/>
+</picture>
 
-In evals: **0%** stale facts in multi-hop retrieval (vs ~45–52% for vector/graph RAG), **7.8×** faster p50 than a temporal property graph, **375 ns** p99 snapshot under concurrent writers. [Benchmarks & architecture →](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine#-why-temporal-hypergraphs)
+<br/><br/>
 
----
+<img src="https://github-profile-trophy.vercel.app/?username=Divyansh151005&theme=tokyonight&no-frame=true&no-bg=true&row=2&column=4&margin-w=8&margin-h=8" width="100%" alt="GitHub trophies"/>
 
-### ~/now
+<br/>
 
-- Arista Networks — software engineering internship  
-- Research: *DualCare* — dual-consent cross-chain medical data sharing ([IEEE](https://ieeexplore.ieee.org/document/11575533))  
-- Hackathon podiums: MedinosXAdvitya (1st), Ideathon (1st), Sustainovate (2nd), Edify (2nd)
+[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Divyansh151005&theme=tokyo-night&hide_border=true&area=true&bg_color=0d1117&color=f97316&line=0ea5e9&point=ffffff&height=250)](https://github.com/Divyansh151005)
 
----
+<br/>
 
-### ~/oss
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,064e3b,50,10b981,100,0f172a&height=48&section=header&text=%F0%9F%90%8D%20CONTRIBUTION%20SNAKE&fontSize=16&fontColor=ffffff" width="100%" alt="Snake section"/>
 
-Upstream work I care about — short blurbs, not a PR inventory. **Pinned repos on my profile** are the four projects I’m actively shipping.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
-| Project | Focus |
-|---------|--------|
-| **[apple/foundationdb](https://github.com/apple/foundationdb)** | **Merged:** tenant SIGSEGV with unusable cluster files; bounded shard batches in storage metrics |
-| **[meta/pyrefly](https://github.com/meta/pyrefly)** | **In flight:** type checker diagnostics, `isinstance` narrowing, dict/generic inference |
-| **[google/guava](https://github.com/google/guava)** | **In flight:** collections `removeIf` on filtered views, encoding streams, test harness features |
-| [vercel/turborepo](https://github.com/vercel/turborepo) | **Merged:** CLI help, docs, Agent Skill stability |
-| [anthropics/buffa](https://github.com/anthropics/buffa) | **Merged:** protobuf well-known types & build options |
-| [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | **Merged:** Leisen–Reimer & finite-difference pricing fixes |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | **Merged:** RDKit docs, patent API migration |
+<br/><br/>
 
-[View merged PRs →](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
-
----
-
-### ~/stack
-
-`Rust` · `Python` · `TypeScript` · `Java` · `C/C++` — LLM/RAG systems, distributed databases, ZK & smart contracts, quant/crypto pipelines
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,50:1e1b4b,100:0f172a&height=140&section=footer&text=Let%27s%20build%20something%20ambitious.&fontSize=26&fontColor=ffffff&animation=twinkling&fontAlignY=72" width="100%" alt="Footer"/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Divyansh151005&show_icons=true&theme=transparent&hide_border=true&hide_title=true&include_all_commits=true&count_private=true" alt="GitHub stats" width="420" />
-
-<br/><sub>Open to collaborations and hard systems problems.</sub>
+**Open to collaborations, research, and hard systems problems.**
 
 </div>
