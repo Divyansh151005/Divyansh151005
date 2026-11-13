@@ -7,12 +7,6 @@
 <p><em>
   Creator of <a href="https://github.com/Divyansh151005/Temporal-Hypergraph-Engine"><b>Temporal Hypergraph Engine</b></a>
 </em></p>
-
-[![Live demo](https://img.shields.io/badge/Live_demo-Temporal_Hypergraph-1e293b?style=flat-square&logo=render&logoColor=white)](https://temporal-hypergraph-web.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
-[![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-475569?style=flat-square&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
-[![IEEE](https://img.shields.io/badge/IEEE-DualCare-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
-
 <br clear="right"/>
 
 ---
@@ -20,7 +14,6 @@
 ### ⚡ Flagship — Temporal Hypergraph Engine
 
 A lock-free, SIMD-accelerated **temporal hypergraph** database in Rust that stores facts as time-bounded hyperedges, so LLM retrieval only follows facts that were true at the moment asked — with a zero-copy **vLLM KV-cache** block store alongside.
-[Live site](https://temporal-hypergraph-web.onrender.com/) · [Repository](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine) · [PyPI](https://pypi.org/project/hypergraph-client/) · [npm](https://www.npmjs.com/package/@temporal-hypergraph/sdk)
 
 **🎯 Stale Facts Served in Multi-Hop Retrieval** <sub>(lower is better)</sub>
 
@@ -45,6 +38,40 @@ Vector RAG               8.6 %               ██░░░░░░░░░�
 📈 Scale          10M hyperedges ingested in 85.6 s — 117K/s sustained, 227K/s peak
 🧩 vLLM           1,600 KV blocks restored bit-exact, 0 mismatches, +0 B VRAM
 📦 SDKs           Rust core · Python (PyPI) · TypeScript (npm) · Docker (GHCR)
+```
+
+---
+
+### ⚛️ Aether-Decoders
+
+Real-time **quantum error correction** decoding for fault-tolerant quantum computers — an integer **Union-Find** decoder for surface codes and **Relay-BP** for qLDPC codes in Rust, rebuilt as **SystemVerilog** processing-element grids that match the Rust model bit for bit.
+
+**🔌 RTL ≡ Rust Co-Simulation** <sub>(bit-identical decodes)</sub>
+
+```text
+Blueprint graphs         8 / 8 match         █████████████████████████   100.00 % 
+Stim phenom d=5          4 / 4 match         █████████████████████████   100.00 % 
+Circuit-level V=392      2 / 2 match         █████████████████████████   100.00 % 
+Helios-n schedule RTL    16 / 16 match       █████████████████████████   100.00 % 
+Helios-n circuit map     16 / 16 match       █████████████████████████   100.00 % 
+```
+
+**📐 FPGA Footprint** <sub>(Yosys LUT estimates, lower is better)</sub>
+
+```text
+Flat PE mesh, N=16       138,502 LUT         █████████████████████████
+Flat PE mesh, N≥24       synthesis timeout   — the flat-mesh cliff
+Helios-n lattice, 7 PEs  12,576 LUT          ██░░░░░░░░░░░░░░░░░░░░░░░
+```
+
+**⚙️ Under the Hood**
+
+```text
+🧮 Surface codes  Integer Union-Find — grow, merge, peel over F2, benchmarked vs PyMatching
+🔗 qLDPC          Relay-BP on IBM gross [[144,12,12]] circuits vs BP+OSD, matched shots
+🔁 Multiplexing   Helios-n time-multiplexed PE lattice past the flat-mesh synthesis cliff
+🧪 Toolchain      Stim · Sinter · Verilator DPI · Icarus · Yosys
+📊 Evidence       76 milestones · 28 Rust tests · 46 result CSVs · 29 RTL modules
 ```
 
 ---
@@ -84,19 +111,17 @@ Vector RAG               8.6 %               ██░░░░░░░░░�
 ### 🌍 Open Source
 
 <!--START_SECTION:oss-->
-**🌍 13 Merged Pull Requests Across 5 Upstream Projects**
+**🌍 19 Merged Pull Requests Across 7 Upstream Projects**
 
 ```text
-vercel/turborepo                      5 merged      ████████████████████
-apple/foundationdb                    2 merged      ████████░░░░░░░░░░░░
-lballabio/QuantLib                    2 merged      ████████░░░░░░░░░░░░
-anthropics/buffa                      2 merged      ████████░░░░░░░░░░░░
-K-Dense-AI/scientific-agent-skills    2 merged      ████████░░░░░░░░░░░░
-google/guava                          3 in review   ████████████░░░░░░░░
-meta/pyrefly                          1 in review   ████░░░░░░░░░░░░░░░░
+meta/pyrefly                          5 merged    ████████████████████
+vercel/turborepo                      5 merged    ████████████████████
+apple/foundationdb                    2 merged    ████████░░░░░░░░░░░░
+lballabio/QuantLib                    2 merged    ████████░░░░░░░░░░░░
+anthropics/buffa                      2 merged    ████████░░░░░░░░░░░░
+K-Dense-AI/scientific-agent-skills    2 merged    ████████░░░░░░░░░░░░
+google/guava                          1 merged    ████░░░░░░░░░░░░░░░░
 ```
-
-<sub>[vercel/turborepo](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Avercel%2Fturborepo) · [apple/foundationdb](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aapple%2Ffoundationdb) · [lballabio/QuantLib](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Alballabio%2FQuantLib) · [anthropics/buffa](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aanthropics%2Fbuffa) · [K-Dense-AI/scientific-agent-skills](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3AK-Dense-AI%2Fscientific-agent-skills) · [meta/pyrefly](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3ADivyansh151005+repo%3Ameta%2Fpyrefly) · [google/guava](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3ADivyansh151005+repo%3Agoogle%2Fguava)</sub>
 <!--END_SECTION:oss-->
 
 
