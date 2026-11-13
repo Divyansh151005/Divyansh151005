@@ -1,4 +1,4 @@
-"""Regenerate the auto-updated sections of README.md from public GitHub data."""
+"""Regenerate the open source section of README.md from public GitHub data."""
 
 import json
 import os
@@ -7,14 +7,12 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from collections import Counter, defaultdict
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from collections import defaultdict
 
 USER = "Divyansh151005"
-TZ = ZoneInfo("Asia/Kolkata")
 README = os.path.join(os.path.dirname(__file__), "..", "README.md")
 API = "https://api.github.com"
+IN_REVIEW_REPOS = ["meta/pyrefly", "google/guava"]
 
 
 def get(path, params=None):
@@ -33,87 +31,53 @@ def get(path, params=None):
         time.sleep(2 ** attempt)
 
 
-def paginate(path, params=None, key=None):
-    page = 1
+def search_prs(query):
+    items, page = [], 1
     while True:
-        data = get(path, {**(params or {}), "per_page": 100, "page": page})
-        batch = data[key] if key else data
-        yield from batch
+        batch = get("/search/issues", {"q": query, "per_page": 100, "page": page})["items"]
+        items.extend(batch)
         if len(batch) < 100:
-            return
+            return items
         page += 1
 
 
-def bar(pct, width=25):
-    filled = round(pct / 100 * width)
+def bar(fraction, width=20):
+    filled = round(fraction * width)
     return "█" * filled + "░" * (width - filled)
 
 
-def row(label, value, pct):
-    return f"{label:<25}{value:<20}{bar(pct)}   {pct:05.2f} % "
-
-
-def commit_times(repos):
-    times = []
-    for repo in repos:
-        try:
-            for c in paginate(f"/repos/{repo['full_name']}/commits", {"author": USER}):
-                stamp = c["commit"]["author"]["date"]
-                times.append(datetime.fromisoformat(stamp.replace("Z", "+00:00")).astimezone(TZ))
-        except urllib.error.HTTPError as err:
-            if err.code not in (404, 409) and err.code < 500:
-                raise
-    return times
-
-
-def analytics_section(repos):
-    times = commit_times(repos)
-    total = len(times) or 1
-
-    buckets = Counter()
-    for t in times:
-        buckets["morning" if 6 <= t.hour < 12 else "daytime" if t.hour < 18 and t.hour >= 12 else "evening" if t.hour >= 18 else "night"] += 1
-    early = buckets["morning"] + buckets["daytime"] >= buckets["evening"] + buckets["night"]
-    periods = [("🌞 Morning", "morning"), ("🌆 Daytime", "daytime"), ("🌃 Evening", "evening"), ("🌙 Night", "night")]
-
-    days = Counter(t.strftime("%A") for t in times)
-    week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    best_day = max(week, key=lambda d: days[d])
-
-    langs = Counter(r["language"] for r in repos if r["language"] and not r["fork"])
-    lang_total = sum(langs.values()) or 1
-
-    lines = ["**I'm an Early 🐤**" if early else "**I'm a Night 🦉**", "", "```text"]
-    lines += [row(label, f"{buckets[key]} commits", buckets[key] / total * 100) for label, key in periods]
-    lines += ["```", "", f"**📅 I'm Most Productive on {best_day}**", "", "```text"]
-    lines += [row(d, f"{days[d]} commits", days[d] / total * 100) for d in week]
-    lines += ["```", "", f"**💬 I Mostly Code in {langs.most_common(1)[0][0]}**", "", "```text"]
-    lines += [
-        row(lang, f"{n} repo{'s' if n > 1 else ''}", n / lang_total * 100)
-        for lang, n in langs.most_common(6)
-    ]
-    lines += ["```"]
-    return "\n".join(lines)
+def pulls_link(repo, state):
+    query = f"is:pr is:{state} author:{USER} repo:{repo}"
+    return f"[{repo}](https://github.com/pulls?q={urllib.parse.quote_plus(query)})"
 
 
 def oss_section():
-    items = list(paginate("/search/issues", {"q": f"is:pr is:merged is:public author:{USER} -user:{USER}"}, key="items"))
-    by_repo = defaultdict(list)
-    for item in items:
-        by_repo[item["repository_url"].removeprefix(f"{API}/repos/")].append(item["closed_at"])
-    repos = sorted(by_repo.items(), key=lambda kv: (len(kv[1]), max(kv[1])), reverse=True)
-    top = max(len(v) for v in by_repo.values())
+    merged = defaultdict(list)
+    for item in search_prs(f"is:pr is:merged is:public author:{USER} -user:{USER}"):
+        merged[item["repository_url"].removeprefix(f"{API}/repos/")].append(item["closed_at"])
+    in_review = {
+        repo: len(search_prs(f"is:pr is:open author:{USER} repo:{repo}"))
+        for repo in IN_REVIEW_REPOS
+        if repo not in merged
+    }
+    in_review = {repo: n for repo, n in in_review.items() if n}
 
-    lines = [f"**🌍 {len(items)} Merged Pull Requests Across {len(by_repo)} Upstream Projects**", "", "```text"]
-    for repo, merged in repos:
-        n = len(merged)
-        lines.append(f"{repo:<38}{f'{n} merged':<12}{bar(n / top * 100, 20)}")
-    lines += ["```"]
-    links = " · ".join(
-        f"[{repo}](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3A{USER}+repo%3A{urllib.parse.quote(repo, safe='')})"
-        for repo, _ in repos
-    )
-    lines += ["", f"<sub>{links}</sub>"]
+    merged_rows = sorted(merged.items(), key=lambda kv: (len(kv[1]), max(kv[1])), reverse=True)
+    top = max([len(v) for v in merged.values()] + list(in_review.values()))
+    total_merged = sum(len(v) for v in merged.values())
+
+    lines = [
+        f"**🌍 {total_merged} Merged Pull Requests Across {len(merged)} Upstream Projects**",
+        "",
+        "```text",
+    ]
+    lines += [f"{repo:<38}{f'{len(prs)} merged':<14}{bar(len(prs) / top)}" for repo, prs in merged_rows]
+    lines += [f"{repo:<38}{f'{n} in review':<14}{bar(n / top)}" for repo, n in sorted(in_review.items(), key=lambda kv: -kv[1])]
+    lines += ["```", ""]
+
+    links = [pulls_link(repo, "merged") for repo, _ in merged_rows]
+    links += [pulls_link(repo, "open") for repo in in_review]
+    lines.append(f"<sub>{' · '.join(links)}</sub>")
     return "\n".join(lines)
 
 
@@ -123,11 +87,9 @@ def replace(readme, name, body):
 
 
 def main():
-    repos = list(paginate(f"/users/{USER}/repos", {"type": "owner"}))
     with open(README, encoding="utf-8") as f:
         readme = f.read()
     readme = replace(readme, "oss", oss_section())
-    readme = replace(readme, "analytics", analytics_section(repos))
     with open(README, "w", encoding="utf-8") as f:
         f.write(readme)
 

@@ -1,17 +1,11 @@
-<img align="right" src="./assets/temporal-desk.gif" width="360" alt="Pixel desk: a monitor shows hyperedges appearing and expiring along a timeline"/>
-
 # Hey, I'm Divyansh 👋
+
+<img align="right" src="./assets/temporal-desk.gif" width="340" alt="Pixel desk: a monitor shows hyperedges appearing and expiring along a timeline"/>
 
 ### Building time-aware memory for LLMs.
 
 <p><em>
   Creator of <a href="https://github.com/Divyansh151005/Temporal-Hypergraph-Engine"><b>Temporal Hypergraph Engine</b></a>
-  <br/>
-  Software Engineering Intern at <b>Arista Networks</b>
-  <br/>
-  B.Tech Computer Science at <a href="https://www.iitrpr.ac.in/"><b>IIT Ropar</b></a>
-  <br/>
-  Published at <a href="https://ieeexplore.ieee.org/document/11575533"><b>IEEE</b></a> · Pune, Maharashtra
 </em></p>
 
 [![Live demo](https://img.shields.io/badge/Live_demo-Temporal_Hypergraph-1e293b?style=flat-square&logo=render&logoColor=white)](https://temporal-hypergraph-web.onrender.com/)
@@ -93,65 +87,18 @@ Vector RAG               8.6 %               ██░░░░░░░░░�
 **🌍 13 Merged Pull Requests Across 5 Upstream Projects**
 
 ```text
-vercel/turborepo                      5 merged    ████████████████████
-apple/foundationdb                    2 merged    ████████░░░░░░░░░░░░
-lballabio/QuantLib                    2 merged    ████████░░░░░░░░░░░░
-anthropics/buffa                      2 merged    ████████░░░░░░░░░░░░
-K-Dense-AI/scientific-agent-skills    2 merged    ████████░░░░░░░░░░░░
+vercel/turborepo                      5 merged      ████████████████████
+apple/foundationdb                    2 merged      ████████░░░░░░░░░░░░
+lballabio/QuantLib                    2 merged      ████████░░░░░░░░░░░░
+anthropics/buffa                      2 merged      ████████░░░░░░░░░░░░
+K-Dense-AI/scientific-agent-skills    2 merged      ████████░░░░░░░░░░░░
+google/guava                          3 in review   ████████████░░░░░░░░
+meta/pyrefly                          1 in review   ████░░░░░░░░░░░░░░░░
 ```
 
-<sub>[vercel/turborepo](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Avercel%2Fturborepo) · [apple/foundationdb](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aapple%2Ffoundationdb) · [lballabio/QuantLib](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Alballabio%2FQuantLib) · [anthropics/buffa](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aanthropics%2Fbuffa) · [K-Dense-AI/scientific-agent-skills](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3AK-Dense-AI%2Fscientific-agent-skills)</sub>
+<sub>[vercel/turborepo](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Avercel%2Fturborepo) · [apple/foundationdb](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aapple%2Ffoundationdb) · [lballabio/QuantLib](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Alballabio%2FQuantLib) · [anthropics/buffa](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3Aanthropics%2Fbuffa) · [K-Dense-AI/scientific-agent-skills](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ADivyansh151005+repo%3AK-Dense-AI%2Fscientific-agent-skills) · [meta/pyrefly](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3ADivyansh151005+repo%3Ameta%2Fpyrefly) · [google/guava](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3ADivyansh151005+repo%3Agoogle%2Fguava)</sub>
 <!--END_SECTION:oss-->
 
-<sub>Also contributing to <a href="https://github.com/meta/pyrefly">meta/pyrefly</a> and <a href="https://github.com/google/guava">google/guava</a> — in review.</sub>
-
----
-
-### 📊 GitHub Analytics
-
-<sub>Computed from public commits in Asia/Kolkata time · refreshed daily</sub>
-
-<!--START_SECTION:analytics-->
-**I'm an Early 🐤**
-
-```text
-🌞 Morning                53 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.42 % 
-🌆 Daytime                169 commits         ███████████░░░░░░░░░░░░░░   42.78 % 
-🌃 Evening                156 commits         ██████████░░░░░░░░░░░░░░░   39.49 % 
-🌙 Night                  17 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 % 
-```
-
-**📅 I'm Most Productive on Wednesday**
-
-```text
-Monday                   52 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-Tuesday                  56 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.18 % 
-Wednesday                75 commits          █████░░░░░░░░░░░░░░░░░░░░   18.99 % 
-Thursday                 52 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-Friday                   52 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-Saturday                 35 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
-Sunday                   73 commits          █████░░░░░░░░░░░░░░░░░░░░   18.48 % 
-```
-
-**💬 I Mostly Code in Python**
-
-```text
-Python                   11 repos            █████████░░░░░░░░░░░░░░░░   36.67 % 
-JavaScript               8 repos             ███████░░░░░░░░░░░░░░░░░░   26.67 % 
-TypeScript               4 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.33 % 
-Jupyter Notebook         2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-SystemVerilog            1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
-```
-<!--END_SECTION:analytics-->
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake.svg" width="100%" />
-</picture>
 
 ---
 
