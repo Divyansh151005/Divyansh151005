@@ -1,92 +1,92 @@
 <div align="center">
 
-# Hi, I'm Divyansh Barodiya 👋
+# Divyansh Barodiya
 
-**CSE @ IIT Ropar** · SWE Intern @ Arista Networks · AI, Backend & Open Source
+**Building [Temporal Hypergraph Engine](#-flagship-temporal-hypergraph-engine)** · CSE @ IIT Ropar · SWE Intern @ **Arista Networks**  
+*Pune, Maharashtra, India*
 
+[![Live demo](https://img.shields.io/badge/demo-temporal--hypergraph--web.onrender.com-0ea5e9?style=for-the-badge)](https://temporal-hypergraph-web.onrender.com/)
+[![Temporal Hypergraph Engine](https://img.shields.io/badge/repo-Temporal--Hypergraph--Engine-f97316?style=for-the-badge&logo=github)](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-divyansh--barodiya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/divyansh-barodiya/)
 [![Email](https://img.shields.io/badge/Email-2023csb1119@iitrpr.ac.in-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:2023csb1119@iitrpr.ac.in)
-[![IEEE](https://img.shields.io/badge/IEEE-DualCare_Paper-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
-[![GitHub](https://img.shields.io/badge/GitHub-Divyansh151005-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Divyansh151005)
-
-<br/>
-
-[![Merged PRs](https://img.shields.io/badge/Merged%20OSS%20PRs-4-22c55e?style=for-the-badge&logo=github)](https://github.com/vercel/turborepo/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
-[![Open PRs](https://img.shields.io/badge/Open%20OSS%20PRs-21-3b82f6?style=for-the-badge&logo=github)](https://github.com/pulls?q=is%3Aopen+is%3Apr+author%3ADivyansh151005)
-[![OSS Projects](https://img.shields.io/badge/OSS%20Projects-9-8b5cf6?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/Divyansh151005)
-[![IEEE Published](https://img.shields.io/badge/IEEE-Published-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
-[![Hackathon Podiums](https://img.shields.io/badge/Hackathon%20Podiums-4-eab308?style=for-the-badge)](https://github.com/Divyansh151005)
-[![Contributions](https://img.shields.io/badge/Contributions-200+-f97316?style=for-the-badge&logo=github)](https://github.com/Divyansh151005)
+[![IEEE DualCare](https://img.shields.io/badge/IEEE-DualCare-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11575533)
 
 </div>
 
 ---
 
-## About Me
+## ⚡ Flagship — Temporal Hypergraph Engine
 
-I'm a Computer Science student at **IIT Ropar** building across **AI systems, backend engineering, distributed systems, and open source**. I've shipped production AI backends at startups, built healthcare and blockchain systems, and contribute to major OSS projects.
+**Time-aware memory for LLMs that never serves a stale fact.**
 
-- 🔭 **Currently:** Software Engineering Intern @ **Arista Networks** · Contributing to Turborepo, Pyrefly, Guava, and more
-- 🎓 **Education:** B.Tech CSE @ IIT Ropar
-- 📄 **Research:** *DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent* ([IEEE](https://ieeexplore.ieee.org/document/11575533))
+I built [**Temporal Hypergraph Engine**](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine) — a lock-free, SIMD-accelerated **temporal hypergraph** database in Rust, with Python/TypeScript SDKs and a zero-copy KV-cache block store for vLLM. Facts are stored as **time-bounded N-ary hyperedges**; every retrieval hop is filtered by validity windows so superseded facts are not returned or expanded.
 
----
+| | |
+|---|---|
+| **Live site** | [temporal-hypergraph-web.onrender.com](https://temporal-hypergraph-web.onrender.com/) — product overview, docs, and benchmarks |
+| **Packages** | [`hypergraph-client`](https://pypi.org/project/hypergraph-client/) · [`hypergraph-engine-native`](https://pypi.org/project/hypergraph-engine-native/) · [`@temporal-hypergraph/sdk`](https://www.npmjs.com/package/@temporal-hypergraph/sdk) |
+| **Highlights** | **0%** stale facts in multi-hop evals vs ~45–52% for vector/graph RAG · **7.8×** faster p50 than temporal property graphs · **375 ns** p99 snapshot under concurrent writers |
 
-## Research
-
-**DualCare: A Blockchain Framework for Secure Medical Data Sharing with Dual Consent** · [IEEE Xplore](https://ieeexplore.ieee.org/document/11575533)
-
-Cross-chain consortium blockchain framework for medical data sharing through **dual consent** across homogeneous Hyperledger Fabric networks. DualCare separates hospital and patient data into independent blockchains connected by a relay service for consent propagation and key distribution, with off-chain MinIO storage, on-chain integrity hashes, and cryptographic key management (AES-256, RSA-2048, time-limited revocation). End-to-end implementation and experimental validation demonstrate consistent transaction latency and high pipeline efficiency for real-world healthcare data governance.
+Rust core · async ingestion · temporal traversal API · vLLM KV restore path. [Read the engine README →](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine#-why-temporal-hypergraphs)
 
 ---
 
-## Hackathons & Competitions
+## About
 
-| Event | Place | Project |
-|-------|-------|---------|
-| **MedinosXAdvitya** | 🥇 1st | Multimodal medical chatbot with advanced NLP and image analysis models |
-| **Ideathon** | 🥇 1st | NFC-based smart entry system with backend ID verification and real-time logging |
-| **Sustainovate** | 🥈 2nd | Land image analysis system with 3D segmentation and geospatial mapping |
-| **Edify** | 🥈 2nd | Drone imagery pipeline with automated preprocessing, reducing model training time |
+Software engineer working across **AI systems, backends, distributed systems, and cryptography**. I ship production AI stacks, contribute upstream to infrastructure and tooling, and publish research on **blockchain-backed healthcare data sharing**.
 
----
-
-## Open Source Contributions
-
-### Merged
-
-| Project | PRs | Focus |
-|---------|-----|-------|
-| [vercel/turborepo](https://github.com/vercel/turborepo) | [#13883](https://github.com/vercel/turborepo/pull/13883), [#13891](https://github.com/vercel/turborepo/pull/13891), [#13892](https://github.com/vercel/turborepo/pull/13892), [#13902](https://github.com/vercel/turborepo/pull/13902) | CLI fixes, docs, Agent Skills |
-
-### Open (awaiting review)
-
-| Project | PRs | Focus |
-|---------|-----|-------|
-| [vercel/turborepo](https://github.com/vercel/turborepo) | [#13904](https://github.com/vercel/turborepo/pull/13904)–[#13906](https://github.com/vercel/turborepo/pull/13906) | Watch timeout tests, CLI help, daemon docs |
-| [vercel/ai](https://github.com/vercel/ai) | [#19993](https://github.com/vercel/ai/pull/19993), [#19994](https://github.com/vercel/ai/pull/19994) | streamText timeout fix, Nuxt docs |
-| [facebook/pyrefly](https://github.com/facebook/pyrefly) | [#4722](https://github.com/facebook/pyrefly/pull/4722), [#4723](https://github.com/facebook/pyrefly/pull/4723) | Type checker diagnostics |
-| [google/guava](https://github.com/google/guava) | [#8642](https://github.com/google/guava/pull/8642)–[#8644](https://github.com/google/guava/pull/8644) | Collections API fixes |
-| [rubrikinc/rubrik-powershell-sdk](https://github.com/rubrikinc/rubrik-powershell-sdk) | [#265](https://github.com/rubrikinc/rubrik-powershell-sdk/pull/265)–[#267](https://github.com/rubrikinc/rubrik-powershell-sdk/pull/267) | Build fix, cmdlet correctness |
-| [apple/foundationdb](https://github.com/apple/foundationdb) | [#13967](https://github.com/apple/foundationdb/pull/13967), [#13968](https://github.com/apple/foundationdb/pull/13968) | Python bindings, RYW coalescing |
-| [anthropics/buffa](https://github.com/anthropics/buffa) | [#394](https://github.com/anthropics/buffa/pull/394), [#395](https://github.com/anthropics/buffa/pull/395) | Protobuf WKT types, build options |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | [#244](https://github.com/K-Dense-AI/scientific-agent-skills/pull/244), [#245](https://github.com/K-Dense-AI/scientific-agent-skills/pull/245) | RDKit docs, API migrations |
-| [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | [#113](https://github.com/supermemoryai/claude-supermemory/pull/113), [#114](https://github.com/supermemoryai/claude-supermemory/pull/114) | Memory recall, entity context |
+- 🔭 **Now:** Arista Networks internship · scaling **Temporal Hypergraph** · OSS in systems & developer tooling
+- 🎓 **B.Tech CSE** @ IIT Ropar
+- 📄 **Research:** *DualCare* — dual-consent, cross-chain medical data sharing on Hyperledger Fabric ([IEEE Xplore](https://ieeexplore.ieee.org/document/11575533))
 
 ---
 
-## Tech Stack
+## Pinned work
 
-**Languages:** Python · TypeScript · JavaScript · Rust · Java · C/C++
+These four repos are what I’m building and maintaining right now (see pins on my profile):
 
-**AI & Backend:** LLM Integration · RAG · Model Serving · Async APIs · Caching · Docker · Kubernetes
+| Project | One line |
+|---------|----------|
+| [**Temporal-Hypergraph-Engine**](https://github.com/Divyansh151005/Temporal-Hypergraph-Engine) | Temporal hypergraph DB + LLM memory / vLLM KV cache |
+| [**Aether-Decoders**](https://github.com/Divyansh151005/Aether-Decoders) | FTQC quantum error correction — Union-Find + Relay-BP decoders in Rust/SystemVerilog |
+| [**ZK-Coprocessor**](https://github.com/Divyansh151005/ZK-Coprocessor) | Trustless off-chain compute & historical state for smart contracts, ZK-verified on-chain |
+| [**alpha-engine**](https://github.com/Divyansh151005/alpha-engine) | Event-driven crypto multi-alpha engine (Binance, PostgreSQL) |
 
-**Systems:** Distributed Systems · Event-Driven Architecture · Kafka · Redis · Hyperledger Fabric · Solana
+---
+
+## Open source (merged upstream)
+
+I contribute fixes and docs where I use the tools daily — **merged PRs only** across **[Vercel Turborepo](https://github.com/vercel/turborepo)**, **[Apple FoundationDB](https://github.com/apple/foundationdb)**, **[Anthropic Buffa](https://github.com/anthropics/buffa)**, **[QuantLib](https://github.com/lballabio/QuantLib)**, and **[K-Dense scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** — spanning CLI/docs, distributed-database safety, protobuf tooling, quantitative finance numerics, and agent skill corrections.
+
+<div align="center">
+
+[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream-13+-22c55e?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged+-repo%3ADivyansh151005%2FOurGuide_test+-repo%3ADivyansh151005%2FSOL_Wallet)
+[![Contributions this year](https://img.shields.io/badge/GitHub_contributions-600+-181717?style=flat-square&logo=github)](https://github.com/Divyansh151005)
+
+</div>
+
+---
+
+## Hackathons
+
+| Event | Place | Focus |
+|-------|-------|--------|
+| MedinosXAdvitya | 🥇 1st | Multimodal medical chatbot |
+| Ideathon | 🥇 1st | NFC smart entry + backend verification |
+| Sustainovate | 🥈 2nd | Geospatial land analysis & 3D segmentation |
+| Edify | 🥈 2nd | Drone imagery preprocessing pipeline |
+
+---
+
+## Stack
+
+**Languages:** Rust · Python · TypeScript · Java · C/C++  
+**Domains:** LLM/RAG memory · async APIs · ZK & smart contracts · quant/backtesting · Fabric/Solana
 
 ---
 
 <div align="center">
 
-*Always open to collaborating on interesting projects — feel free to reach out!*
+<sub>Open to internships, collaborations, and hard systems problems — reach out via LinkedIn or email.</sub>
 
 </div>
