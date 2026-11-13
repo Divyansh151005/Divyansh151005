@@ -12,6 +12,7 @@ from collections import defaultdict
 USER = "Divyansh151005"
 README = os.path.join(os.path.dirname(__file__), "..", "README.md")
 API = "https://api.github.com"
+HIDDEN_REPOS = {"google/guava"}
 
 
 def get(path, params=None):
@@ -66,6 +67,8 @@ def oss_section():
     for item in search_prs(f"{scope} is:closed is:unmerged"):
         if landed_by_bot(item):
             merged[repo_of(item)].append(item["closed_at"])
+    for repo in HIDDEN_REPOS:
+        merged.pop(repo, None)
 
     rows = sorted(merged.items(), key=lambda kv: (len(kv[1]), max(kv[1])), reverse=True)
     top = max(len(v) for v in merged.values())
