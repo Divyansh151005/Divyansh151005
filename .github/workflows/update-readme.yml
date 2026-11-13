@@ -33,4 +33,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update README stats"
+          git pull --rebase
           git push
