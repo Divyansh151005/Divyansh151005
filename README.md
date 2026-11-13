@@ -35,14 +35,14 @@ Upstream work I care about — short blurbs, not a PR inventory. **Pinned repos 
 | Project | Focus |
 |---------|--------|
 | **[apple/foundationdb](https://github.com/apple/foundationdb)** | **Merged:** tenant SIGSEGV with unusable cluster files; bounded shard batches in storage metrics |
-| **[meta/pyrefly](https://github.com/meta/pyrefly)** | Python type checker — diagnostics, `isinstance` narrowing, dict/generic inference |
-| **[google/guava](https://github.com/google/guava)** | Collections API correctness — `removeIf` on filtered views, encoding streams, test harness features |
+| **[meta/pyrefly](https://github.com/meta/pyrefly)** | **In flight:** type checker diagnostics, `isinstance` narrowing, dict/generic inference |
+| **[google/guava](https://github.com/google/guava)** | **In flight:** collections `removeIf` on filtered views, encoding streams, test harness features |
 | [vercel/turborepo](https://github.com/vercel/turborepo) | **Merged:** CLI help, docs, Agent Skill stability |
 | [anthropics/buffa](https://github.com/anthropics/buffa) | **Merged:** protobuf well-known types & build options |
 | [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | **Merged:** Leisen–Reimer & finite-difference pricing fixes |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | **Merged:** RDKit docs, patent API migration |
 
-[`Merged PRs`](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged) · [`Open PRs`](https://github.com/pulls?q=is%3Aopen+is%3Apr+author%3ADivyansh151005)
+[View merged PRs →](https://github.com/pulls?q=is%3Apr+author%3ADivyansh151005+is%3Amerged)
 
 ---
 
