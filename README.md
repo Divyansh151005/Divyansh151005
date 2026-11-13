@@ -147,8 +147,6 @@ SystemVerilog            1 repo              █░░░░░░░░░░�
 
 <br/>
 
-[![Activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Divyansh151005&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=94a3b8&line=64748b&point=e2e8f0&height=240)](https://github.com/Divyansh151005)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Divyansh151005/Divyansh151005/master/assets/github-contribution-grid-snake.svg" />
