@@ -95,8 +95,8 @@ const divyansh = {
 
 <!--START_SECTION:merged-->
 <p align="center">
-  <img src="https://img.shields.io/badge/Merged_PRs-16-334155?style=for-the-badge&logo=git-merge&logoColor=white" alt="16 merged PRs"/>
-  <img src="https://img.shields.io/badge/Repositories-6-475569?style=for-the-badge&logo=github&logoColor=white" alt="6 repositories"/>
+  <img src="https://img.shields.io/badge/Merged_PRs-13-334155?style=for-the-badge&logo=git-merge&logoColor=white" alt="13 merged PRs"/>
+  <img src="https://img.shields.io/badge/Repositories-5-475569?style=for-the-badge&logo=github&logoColor=white" alt="5 repositories"/>
 </p>
 
 <table>
@@ -119,10 +119,6 @@ const divyansh = {
 <tr>
 <td width="64" align="center"><img src="https://github.com/vercel.png?size=80" width="40" alt="vercel"/></td>
 <td><b><a href="https://github.com/vercel/turborepo">vercel/turborepo</a></b> <sub>· 5 merged</sub><br/><a href="https://github.com/vercel/turborepo/pull/13905">#13905</a> fix: Correct devtools --port default in CLI help <sub>· 2026-09-01</sub><br/><a href="https://github.com/vercel/turborepo/pull/13883">#13883</a> docs: Align CONTRIBUTING Node and pnpm versions <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13902">#13902</a> docs: Document missing reference flags and fix query typo <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13891">#13891</a> fix: Update --filter help links to canonical docs URL <sub>· 2026-08-31</sub><br/><a href="https://github.com/vercel/turborepo/pull/13892">#13892</a> docs: Clarify turbo ls stability in Agent Skill <sub>· 2026-08-30</sub></td>
-</tr>
-<tr>
-<td width="64" align="center"><img src="https://github.com/rkehres.png?size=80" width="40" alt="rkehres"/></td>
-<td><b><a href="https://github.com/rkehres/arbiter">rkehres/arbiter</a></b> <sub>· 3 merged</sub><br/><a href="https://github.com/rkehres/arbiter/pull/13">#13</a> Schema Final Alignment: Remove hasMany, Add Query Indexes, Align Environments <sub>· 2026-02-14</sub><br/><a href="https://github.com/rkehres/arbiter/pull/12">#12</a> feat(schema): align domain + migrations with finalized SqlDBM schema <sub>· 2026-02-11</sub><br/><a href="https://github.com/rkehres/arbiter/pull/9">#9</a> Normalize options model and refactor services <sub>· 2026-02-02</sub></td>
 </tr>
 </table>
 
