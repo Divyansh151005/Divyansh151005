@@ -7,6 +7,7 @@
 <p><em>
   Creator of <a href="https://github.com/Divyansh151005/Temporal-Hypergraph-Engine"><b>Temporal Hypergraph Engine</b></a>
 </em></p>
+
 ### ⚡ Flagship — Temporal Hypergraph Engine
 
 A lock-free, SIMD-accelerated **temporal hypergraph** database in Rust that stores facts as time-bounded hyperedges, so LLM retrieval only follows facts that were true at the moment asked — with a zero-copy **vLLM KV-cache** block store alongside.
