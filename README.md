@@ -113,7 +113,7 @@ Helios-n lattice, 7 PEs  12,576 LUT          ██░░░░░░░░░�
 **🌍 18 Merged Pull Requests Across 6 Upstream Projects**
 
 ```text
-meta/pyrefly                          5 merged    ████████████████████
+pyrefly-org/pyrefly                   5 merged    ████████████████████
 vercel/turborepo                      5 merged    ████████████████████
 apple/foundationdb                    2 merged    ████████░░░░░░░░░░░░
 lballabio/QuantLib                    2 merged    ████████░░░░░░░░░░░░
