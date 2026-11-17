@@ -110,12 +110,12 @@ Helios-n lattice, 7 PEs  12,576 LUT          ██░░░░░░░░░�
 ### 🌍 Open Source
 
 <!--START_SECTION:oss-->
-**🌍 18 Merged Pull Requests Across 6 Upstream Projects**
+**🌍 19 Merged Pull Requests Across 6 Upstream Projects**
 
 ```text
 pyrefly-org/pyrefly                   5 merged    ████████████████████
 vercel/turborepo                      5 merged    ████████████████████
-apple/foundationdb                    2 merged    ████████░░░░░░░░░░░░
+apple/foundationdb                    3 merged    ████████████░░░░░░░░
 lballabio/QuantLib                    2 merged    ████████░░░░░░░░░░░░
 anthropics/buffa                      2 merged    ████████░░░░░░░░░░░░
 K-Dense-AI/scientific-agent-skills    2 merged    ████████░░░░░░░░░░░░
